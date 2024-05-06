@@ -66,6 +66,7 @@ function resertTimer() {
     startBtn.style.display ="block";
     pauseBtn.style.display ="none";
     resumeBtn.style.display ="none";
+    isPause = false;
 }
 
 function formatTime(time) {//para formartar o tempo para que tenha um '0' enquanto faz a execução
